@@ -36,7 +36,7 @@ const itemVariants = {
 
 export default function App() {
   return (
-    <div className="min-h-screen flex justify-center bg-[#0A0A0A] text-white selection:bg-white/20">
+    <div className="min-h-screen flex justify-center bg-[rgb(36,34,34)] text-white selection:bg-white/20">
       <style>{`
         /* --- Fonts & Base --- */
         :root {
@@ -181,8 +181,8 @@ export default function App() {
               <p className="text-[10px] text-gray-400 font-en tracking-wider font-bold">
                 MAIN SERVICE
               </p>
-              <p className="text-lg font-serif text-white font-bold">
-                NEXT-ONE 事業サイト
+              <p className="text-lg font-serif text-white font-bold text-[14px]">
+                NEXT-ONE
               </p>
               <p className="text-[10px] text-gray-400 mt-0.5">
                 IT保守 / WEB制作 / 車両管理
@@ -230,10 +230,14 @@ export default function App() {
 
           {/* LINE Contact Button */}
           <a 
-            href="https://line.me/" 
+            href="https://lin.ee/QMrdKYt" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="line-button w-full p-4 rounded-full text-white text-sm flex items-center justify-center gap-2 transition mt-6 font-bold group"
+            className="w-full p-4 rounded-full text-white text-sm flex items-center justify-center gap-2 transition mt-6 font-bold group border border-white/20"
+            style={{ 
+              background: 'linear-gradient(135deg, #06C755 0%, #05B347 100%)',
+              boxShadow: '0 4px 15px rgba(6, 199, 85, 0.3)'
+            }}
           >
             <MessageCircle className="w-5 h-5 group-hover:scale-110 transition-transform" />
             LINEで依頼・相談窓口
